@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    padding: 2%;
+    background-color: black;
+}
+
+html{
+    background-color: rgba(52, 58, 64, 1);
+}
+
+.hideen{
+    display:none;
+}
+
+main{
+    
+}
+
+.p1{
+    color: whitesmoke;
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#pg{
+    font-size: 20px;
+}
+
+#pergunta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#secsobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#sobre{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    border: solid 2px white;
+    border-radius: 10%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#btn {
+    cursor: pointer;
+ 
+    padding: 8px 16px;
+ 
+    font-size: 16px;
+ 
+    color:white;
+ 
+    font-weight: 400;
+ 
+    background-color: rgba(255, 255, 255, 0);
+ 
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+ 
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+ 
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+ 
+ 
+     
+    border-radius: 4px;
+ 
+    -moz-border-radius: 4px;
+ 
+    -webkit-border-radius: 4px;
+ 
+    border: 1px solid rgba(52, 58, 64, 1);
+ 
+ }
+ 
+ 
+ #btn:hover  {
+ 
+    color: rgba(255, 255, 255, 1);
+ 
+    background-color: rgba(52, 58, 64, 1);
+ 
+    border-color: rgba(52, 58, 64, 1);
+ 
+ }
+ 
+ 
+ #btn:active  {
+ 
+    color: rgba(255, 255, 255, 1);
+ 
+    background-color: rgba(52, 58, 64, 1);
+ 
+    border-color: rgba(52, 58, 64, 1);
+ 
+ }
+
+ #btn2 {
+    cursor: pointer;
+ 
+    padding: 8px 16px;
+ 
+    font-size: 16px;
+ 
+    color:white;
+ 
+    font-weight: 400;
+ 
+    background-color: black;
+ 
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+ 
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+ 
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+ 
+ 
+     
+    border-radius: 4px;
+ 
+    -moz-border-radius: 4px;
+ 
+    -webkit-border-radius: 4px;
+ 
+    border: 1px solid rgba(52, 58, 64, 1);
+ 
+ }
+ 
+ 
+ #btn2:hover  {
+ 
+    color: rgba(255, 255, 255, 1);
+ 
+    background-color: rgba(52, 58, 64, 1);
+ 
+    border-color: rgba(52, 58, 64, 1);
+ 
+ }
+ 
+ 
+ #btn2:active  {
+ 
+    color: rgba(255, 255, 255, 1);
+ 
+    background-color: rgba(52, 58, 64, 1);
+ 
+    border-color: rgba(52, 58, 64, 1);
+ 
+ }
+
+

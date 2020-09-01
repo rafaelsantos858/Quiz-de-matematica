@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz matematica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  
+    <main>
+
+        <section id="secsobre">
+            <div id="sobre">
+                <h1>Quiz Matematica</h1>
+                <br>
+                <p id="pg">Ao clicar no botão <i>mostrar</i> surgira uma pergunta com 3 alternativas, você tera 10 segundo para responder antes que o tempo acabe.</p>
+            </div>
+        </section>
+
+        
+
+
+        <section id="pergunta">
+            <input type="button" id="btn2" value="mostrar" onclick="mostrar('p');ocultar('p')">
+            <br>
+            <br>
+            <div id="p" class="hideen">
+                <h3>Qual o valor de X ?  55-X= 32</h3>
+                <label>
+                    <input type="radio" name="resposta1" value="A" /> 30 </label>
+                <br>
+                <label>
+                    <input type="radio" name="resposta1"  value="B" /> 28</label><br>
+                <label>
+                    <input type="radio" name="resposta1" id="c" value="C" /> 23</label>
+                <button id="btn" onclick="verificar()">verificar</button>
+            </div>
+        </section>
+
+        <br>
+
+        <section id="pergunta">
+            <input type="button" id="btn2" value="mostrar" onclick="mostrar('p2');ocultar('p2')">
+            <br>
+            <br>
+            <div id="p2" class="hideen">
+                <h3>Qual o valor de A ?  A = 5 * 7</h3>
+                <label>
+                    <input type="radio" name="resposta1" value="A" id="a" /> 35 </label>
+                <br>
+                <label>
+                    <input type="radio" name="resposta1" value="B" /> 28</label><br>
+                <label>
+                    <input type="radio" name="resposta1" value="C" /> 40</label>
+                <button id="btn" onclick="verificarp2()">verificar</button>
+            </div>
+        </section>
+
+        <br>
+
+        <section id="pergunta">
+            <input type="button" id="btn2" value="mostrar" onclick="mostrar('p3');ocultar('p3')">
+            <br>
+            <br>
+            <div id="p3"  class="hideen">
+                <h3>Qual a raiz quadrada de 16</h3>
+                <label>
+                    <input type="radio" name="resposta1" value="A"  /> 5 </label>
+                <br>
+                <label>
+                    <input type="radio" name="resposta1" id="b" value="4" /> 4</label><br>
+                <label>
+                    <input type="radio" name="resposta1" value="6" /> 6</label>
+                <button id="btn" onclick="verificarp3()">verificar</button>
+            </div>
+        </section>
+
+
+        
+        
+
+
+    </main>
+     
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
